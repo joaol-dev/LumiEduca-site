@@ -1,6 +1,8 @@
-.site-header {
+.logo-area {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 15px 40px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -11,6 +13,29 @@
     font-size: 24px;
     font-weight: bold;
     color: #2c3e50;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px; 
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-site {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.slogan {
+    margin: 0;
+    font-size: 14px;
+    color: #7f8c8d;
+    font-weight: 300; /* mais leve */
 }
 
 /* Menu empurrado para a direita */
