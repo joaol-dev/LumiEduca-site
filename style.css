@@ -1,0 +1,60 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo fixo à esquerda */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Menu empurrado para a direita */
+.nav-menu {
+    margin-left: auto; /* empurra o menu para a direita */
+    display: flex;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* reduz espaço entre links */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #7f8c8d;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #2980b9;
+}
+
+/* Botão ao lado do menu */
+.cta-button {
+    margin-left: 20px; /* espaço entre o menu e o botão */
+}
+
+.cta-button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button a:hover {
+    background-color: #3498db;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
