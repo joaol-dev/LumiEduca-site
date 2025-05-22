@@ -120,23 +120,6 @@ body {
     overflow: hidden;
 }
 
-.onda-topo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: translateY(-100%);
-    z-index: 1;
-}
-
-.onda-topo svg {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
 .conteudo-sobre {
     position: relative;
     z-index: 1;
