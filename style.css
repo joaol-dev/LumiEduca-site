@@ -100,3 +100,8 @@ body {
     line-height: 1.2;
     display: block;
 }
+
+.crianças {
+    display: flex;  
+    float: right;
+}
